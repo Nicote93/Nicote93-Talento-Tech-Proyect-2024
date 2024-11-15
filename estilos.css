@@ -1,7 +1,13 @@
 /* comentario en CSS */
 body {
     background-image: url(https://i.pinimg.com/originals/49/32/c9/4932c98a88222575145cbca55264bd92.gif);
-    background-size: cover;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {background-image: url(https://img1.picmix.com/output/stamp/normal/9/8/3/2/752389_c32c9.gif);}
+    
 }
 .agdasima-regular {
     font-family: "Agdasima", sans-serif;
