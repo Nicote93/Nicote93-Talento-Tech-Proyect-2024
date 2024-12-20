@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Animatrix - Buenos Aires Talento Tech 2024</title>
+</head>
+<body>
+  <!--   Encabezado principal -->
+     <header>
+        <h1>Animatrix - Buenos Aires Talento Tech 2024</h1><!--  Titulo del sitio -->
+        <img src="https://preview.redd.it/does-anyone-know-if-there-is-a-gabumon-gif-like-this-one-v0-9e904pfzntwb1.gif?width=300&auto=webp&s=24ba65ecd9ef0db03c21176af57479396b0c7c38" alt="GIF animado" class="headerImg">
+      <!--   icono del carrito , con enlace a la pagina del carrito -->
+         <a href="carrito.html" class="icono-carrito">🛒 <span id="contador-carrito">0</span></a>
+     </header>
+
+<!--      Barra de navegacion principal -->
+      <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="reseñas.html">Reseñas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+    <!--   seccion de productos -->
+       <section id="productos" class="productos">
+       <!--  producto con descripcion , precio y bton para agregar al carrito -->
+         <article class="producto">
+            <h2>Producto 1</h2>
+            <p>Descripcion del producto</p>
+            <p class="precio">$100</p>
+            <button onclick="agregarAlcarrito('Producto 1', 100)" >Agregar</button>
+         </article>
+
+                <!--  producto con descripcion , precio y bton para agregar al carrito -->
+                <article class="producto">
+                    <h2>Producto 2</h2>
+                    <p>Descripcion del producto 2</p>
+                    <p class="precio">$200</p>
+                    <button onclick="agregarAlcarrito('Producto 2', 200)" >Agregar</button>
+                 </article>
+
+       </section>
+
+ <script src="./index.js"></script>
+ <footer>
+   <br>
+   <br>
+   <h4 class="fa-solid fa-vr-cardboard"><b>  Los mas esperados</b></h4>
+   <div class="videos">
+      <iframe class= "video" src="https://www.youtube.com/embed/Ro26B394ZBM?si=ANTK5YL-q1jIXFK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class= "video" src="https://www.youtube.com/embed/7BghYTigv8E?si=XDJq02mWUoVMoSgg" title="Final_Fantasy_Dawntrail" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class= "video" src="https://www.youtube.com/embed/Vqb8NI55LNI?si=1ypIbZOmf-gYtetW" title="Stray_Nintendo_Switch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class= "video" src="https://www.youtube.com/embed/aNB52By8MOI?si=JYwbGc8lWZIUEWam" title="Dragon_Age_The_Veilguard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+   <h5>Creador Nicolas Alejandro Tello.</h5>
+ </footer>
+</body>
+</html>
