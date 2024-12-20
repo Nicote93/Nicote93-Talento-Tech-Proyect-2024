@@ -1,0 +1,145 @@
+/* --- Estilos básicos y reinicio de márgenes --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    padding: 20px; /* Espaciado interno */
+    background-image: url(https://i.pinimg.com/originals/49/32/c9/4932c98a88222575145cbca55264bd92.gif);
+    background-size: cover;
+}
+
+/* --- Encabezado (Header) --- */
+header {
+    display: flex; /* Distribución flexible */
+    justify-content: space-between; /* Elementos separados */
+    align-items: center; /* Alineación vertical */
+    background: orangered; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+header h1 {
+    font-size: 24px; /* Tamaño del título */
+}
+
+footer h5 {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin: 2px; /*margin establece el margen para los cuatro lados*/
+    padding: 2px; /*padding establece el espacio de relleno*/
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {background-image: url(https://img1.picmix.com/output/stamp/normal/9/8/3/2/752389_c32c9.gif);}
+    fieldset{width: 75vw;}
+    
+}
+
+fieldset{
+    background: lightgoldenrodyellow;
+    width: 50vw;
+}
+
+.icono-carrito {
+    color: white; /* Color del icono */
+    font-size: 24px; /* Tamaño del icono */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* --- Navegación principal --- */
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    background: orange; /* Fondo oscuro */
+    padding: 10px; /* Espaciado interno */
+}
+
+nav ul li {
+    display: inline; /* Elementos en línea */
+    margin-right: 15px; /* Separación entre enlaces */
+}
+
+nav ul li a {
+    color: white; /* Color de texto */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.videos {
+    display: grid; /* Distribución en cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste automático */
+    gap: 5px; /* Separación entre productos */
+    margin-top: 10px; /* Margen superior */
+}
+
+.video {
+    background: lightseagreen; /* Fondo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 2px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+}
+/* --- Estilos de productos --- */
+.productos {
+    display: grid; /* Distribución en cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste automático */
+    gap: 20px; /* Separación entre productos */
+    margin-top: 20px; /* Margen superior */
+}
+
+.producto {
+    background: #f4f4f4; /* Fondo claro */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+}
+
+.productosReseña {
+    display: grid; /* Distribución en cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Ajuste automático */
+    gap: 10px; /* Separación entre productos */
+    margin-top: 10px; /* Margen superior */
+}
+
+.productoReseña {
+    background: gray; /* Fondo */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 1px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    color: aliceblue;
+}
+
+.imgProd{
+    height: 50vh;
+    width: 20vw;
+}
+
+.headerImg {
+    height: 8vh;
+    width: 5vw;
+}
+
+.producto h2 {
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.producto .precio {
+    color: green; /* Texto en color verde */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+.producto button {
+    background: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Mano al pasar por encima */
+}
+
+.producto button:hover {
+    background: #555; /* Cambio de color al pasar el cursor */
+}
